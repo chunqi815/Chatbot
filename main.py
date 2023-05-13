@@ -18,7 +18,7 @@ nltk.download("universal_tagset")
 nltk.download("omw-1.4")
 
 # Reading the Corpus of Question Excel
-dataset = pd.read_csv("COMP3071-CW1-Dataset.csv")
+dataset = pd.read_csv("COMP3071-Dataset.csv")
 questionDataset = list(dataset['Question'])
 questionDataset = ' '.join(str(e) for e in questionDataset).lower()
 answerDataset = list(dataset['Answer'])
